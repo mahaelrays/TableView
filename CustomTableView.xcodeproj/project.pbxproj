@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5843E49B26CE71EF00291A48 /* ContactsUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5843E49A26CE71EF00291A48 /* ContactsUser.swift */; };
+		58864CBC26C5423900ECC175 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58864CBB26C5423900ECC175 /* HomeViewController.swift */; };
+		58864CC026CA935500ECC175 /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58864CBF26CA935500ECC175 /* UserName.swift */; };
 		58A4857926C3DC7E0016D962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4857826C3DC7E0016D962 /* AppDelegate.swift */; };
 		58A4857B26C3DC7E0016D962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4857A26C3DC7E0016D962 /* SceneDelegate.swift */; };
 		58A4857D26C3DC7E0016D962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A4857C26C3DC7E0016D962 /* ViewController.swift */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5843E49A26CE71EF00291A48 /* ContactsUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsUser.swift; sourceTree = "<group>"; };
+		58864CBB26C5423900ECC175 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58864CBF26CA935500ECC175 /* UserName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
 		58A4857526C3DC7E0016D962 /* CustomTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A4857826C3DC7E0016D962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58A4857A26C3DC7E0016D962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 				58A4858126C3DC7F0016D962 /* Assets.xcassets */,
 				58A4858326C3DC7F0016D962 /* LaunchScreen.storyboard */,
 				58A4858626C3DC7F0016D962 /* Info.plist */,
+				58864CBB26C5423900ECC175 /* HomeViewController.swift */,
+				58864CBF26CA935500ECC175 /* UserName.swift */,
+				5843E49A26CE71EF00291A48 /* ContactsUser.swift */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A4857D26C3DC7E0016D962 /* ViewController.swift in Sources */,
+				5843E49B26CE71EF00291A48 /* ContactsUser.swift in Sources */,
 				58A4857926C3DC7E0016D962 /* AppDelegate.swift in Sources */,
 				58A4857B26C3DC7E0016D962 /* SceneDelegate.swift in Sources */,
+				58864CC026CA935500ECC175 /* UserName.swift in Sources */,
+				58864CBC26C5423900ECC175 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
